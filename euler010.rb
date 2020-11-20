@@ -19,7 +19,7 @@ def prime?(number)
     elsif number%3 == 0
         return false
     else
-        num = (Math.sqrt(number)).floor
+        num = (Math.sqrt(number))
         x = 5
         while x<=num
             if number%x == 0
